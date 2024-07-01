@@ -1,0 +1,17 @@
+{
+  "name": "simple-livechat-server",
+  "version": "1.0.0",
+  "description": "This is a socket server",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
